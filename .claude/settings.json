@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sf project deploy start:*)",
+      "Bash(sf project retrieve start:*)",
+      "Bash(sf apex run test:*)",
+      "Bash(sf org list:*)",
+      "Bash(sf org display:*)",
+      "Bash(sf org login web:*)",
+      "Bash(sf project deploy report:*)",
+      "Bash(sf apex get log:*)"
+    ],
+    "defaultMode": "acceptEdits"
+  }
+}

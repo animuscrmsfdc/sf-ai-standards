@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "salesforce.salesforcedx-vscode-expanded",
+    "salesforce.salesforcedx-vscode-apex",
+    "salesforce.salesforcedx-vscode-lwc",
+    "salesforce.salesforcedx-vscode-apex-debugger",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens"
+  ]
+}

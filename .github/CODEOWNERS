@@ -1,0 +1,21 @@
+# .github/CODEOWNERS
+# Syntax: <file-pattern>  <owner1> <owner2> ...
+# Last matching rule wins — order from broad to specific.
+
+# ── Default: any change needs a senior dev review ──────────────────
+*                                   @animuscrmsfdc
+
+# ── VS Code workspace settings — any dev peer review is fine ───────
+.vscode/                            @animuscrmsfdc
+
+# ── AI coding standards — senior dev required ──────────────────────
+config/ai-rules/                    @animuscrmsfdc
+
+# ── Custom commands — senior dev required ──────────────────────────
+.claude/commands/                   @animuscrmsfdc
+
+# ── Claude Code permission gates — tech lead only ──────────────────
+.claude/settings.json               @animuscrmsfdc
+
+# ── Root AI context — tech lead only (most critical file) ──────────
+.claude/CLAUDE.md                   @animuscrmsfdc

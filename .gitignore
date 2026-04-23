@@ -1,0 +1,20 @@
+# Salesforce CLI auth & scratch org files
+.sfdx/
+.localdevserver/
+config/user/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Local Claude overrides (may contain personal credentials)
+CLAUDE.local.md
+
+# OS & editor noise
+.DS_Store
+Thumbs.db
+.vscode/*.log
+
+# Node
+node_modules/

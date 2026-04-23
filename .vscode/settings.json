@@ -1,0 +1,32 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[apex]": {
+    "editor.defaultFormatter": "salesforce.salesforcedx-vscode-apex"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "html"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.associations": {
+    "*.cls": "apex",
+    "*.trigger": "apex",
+    "*.page": "html",
+    "*.component": "html"
+  },
+  "salesforcedx-vscode-apex.java.home": "",
+  "search.exclude": {
+    "**/.sfdx": true,
+    "**/.localdevserver": true,
+    "**/node_modules": true
+  }
+}
