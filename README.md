@@ -43,7 +43,7 @@ Copy this repo's `.claude/` folder into any Salesforce project to get a consiste
 1. Clone this repo:
 
    ```
-   git clone <this-repo-url>
+   git clone https://github.com/animuscrmsfdc/sf-ai-standards.git
    ```
 
 2. Copy `.claude/` into your Salesforce project root:
